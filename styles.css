@@ -218,22 +218,86 @@ section .footer .row.row2 ul li a {
 
 
 
-@media only screen and (max-width: 767px) {
-    section .footer {
-        position: relative;
+@media only screen and (max-width: 1024px) {
+    section {
+        align-items: center;
         text-align: center;
+        padding: 20px;
+    }
+
+    section .main {
+        width: 90%;
+    }
+
+    section .main .searchBox #searchInput {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    section .main .buttons button {
+        font-size: 12px;
+        padding: 10px 16px;
+    }
+
+    section .footer {
+        padding: 10px;
+    }
+
+    .menu-dropdown {
+        right: 5px;
+        width: 180px;
+    }
+
+    .menu-dropdown a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    section .main {
+        width: 100%;
+    }
+
+    section .main h1 {
+        font-size: 40px;
+    }
+
+    section .main .searchBox #searchInput {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    section .main .buttons {
+        flex-direction: column;
+    }
+
+    section .main .buttons button {
+        width: 90%;
+        margin: 5px 0;
     }
 
     section .footer .row.row2 {
         flex-direction: column;
-        align-items: center;
+        text-align: center;
     }
 
-    section .footer .row.row2 ul {
-        flex-direction: column;
-        text-align: center;
-        padding: 0;
+    .menu-dropdown {
+        right: 5px;
+        width: 170px;
+    }
+
+    .menu-dropdown a {
+        font-size: 13px;
+        padding: 8px;
     }
 }
+
 
 
