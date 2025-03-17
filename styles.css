@@ -185,35 +185,25 @@ section .footer .row.row2 ul li a {
     cursor: pointer;
 }
 
-.menu-dropdown {
-    display: none;
-    position: absolute;
-    top: 50px;
-    right: 10px;
-    background: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    width: 200px;
-    padding: 10px;
+.menu-dropdown img {
+    width: 40px;  
+    height: 40px; 
+    margin-right: 10px; 
+    border-radius: 8px; 
+    object-fit: contain; 
 }
-
 .menu-dropdown a {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 8px 12px;
     text-decoration: none;
     color: black;
-}
-
-.menu-dropdown a img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+    font-size: 16px;
 }
 .menu-dropdown a:hover {
-    background: #f1f1f1;
-    border-radius: 5px;
+    background-color: #f1f1f1; /* होवर इफेक्ट */
 }
+
 
 
 
