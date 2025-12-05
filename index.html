@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+    <section>
+        <header>
+            <ul>
+                <li>
+                    <a href="https://accounts.google.com/ServiceLogin?service=mail">Gmail</a>
+                </li>
+                <li>
+                    <a href="">Images</a>
+                </li>
+                <li>
+                    <a href="#" onclick="toggleMenu()">
+                        <img src="menuIcon.png" alt="Menu">
+                    </a>
+                
+                    <!-- Google-style Menu -->
+                    <div id="menuDropdown" class="menu-dropdown">
+                        <a href="https://www.google.com/"><img src="google1.png"> Google</a>
+                        <a href="https://mail.google.com/"><img src="mail.png"> Gmail</a>
+                        <a href="https://www.youtube.com/"><img src="youtube.png"> YouTube</a>
+                        <a href="https://maps.google.com/"><img src="map.png"> Maps</a>
+                        <a href="https://drive.google.com/"><img src="drive.png"> Drive</a>
+                        <a href="https://photos.google.com/"><img src="photos.png"> Photos</a>
+                        <a href="https://www.instagram.com/"><img src="instagram.jpg"> Instagram</a>
+                        <a href="https://gemini.google.com/"><img src="gemini.png"> Gemini</a>
+                        <a href="https://news.google.com/"><img src="news.png"> News</a>
+                        <a href="https://calendar.google.com/"><img src="calender.png"> Calendar</a>
+                        <a href="https://translate.google.com/"><img src="translate.png"> Google Translate</a>
+                        <a href="https://play.google.com/store"><img src="playstore.png"> Play Store</a>
+                    </div>
+                </li>
+                
+                <li>
+                    <button onclick="redirectToGoogleSignIn()">Sign In</button>
+                </li>
+            </ul>
+        </header>
+
+        <div class="main">
+            <h1>AKASH</h1>
+            <div class="searchBox">
+                <input type="text" id="searchInput" >
+                <div class="icons">
+                    <div class="pointer">
+                        <img src="search.png" alt="" onclick="openFile()">
+                    </div>
+                    <div class="miclens">
+                        <img src="mic.png" alt="">
+                        <img src="googlelens.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button onclick="SearchBtn()">Google Search</button>
+                <button>I'm Feeling Lucky</button>
+                
+            </div>
+            <ul class="languages">
+                <li>Google offered in:</li>
+                <li><a href="#" onclick="changeLanguage('hi')">हिन्दी</a></li>
+                <li><a href="#" onclick="changeLanguage('bn')">বাংলা</a></li>
+                <li><a href="#" onclick="changeLanguage('te')">తెలుగు</a></li>
+                <li><a href="#" onclick="changeLanguage('mr')">मराठी</a></li>
+                <li><a href="#" onclick="changeLanguage('ta')">தமிழ்</a></li>
+                <li><a href="#" onclick="changeLanguage('gu')">ગુજરાતી</a></li>
+                <li><a href="#" onclick="changeLanguage('kn')">ಕನ್ನಡ</a></li>
+                <li><a href="#" onclick="changeLanguage('ml')">മലയാളം</a></li>
+                <li><a href="#" onclick="changeLanguage('pa')">ਪੰਜਾਬੀ</a></li>
+            </ul>
+            
+        </div>
+        <div class="footer">
+            <div class="row row1">
+                <p class="country">India</p>
+            </div>
+            <div class="row row2">
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Advertising</a></li>
+                    <li><a href="">Business</a></li>
+                    <li><a href="">How Search works</a></li>
+                    
+
+                </ul>
+                <ul>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Terms</a></li>
+                    <li><a href="">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="akash.js"></script>
+</body>
+</html>
